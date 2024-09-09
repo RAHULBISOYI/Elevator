@@ -13,7 +13,7 @@ FEATURES:
 > Basic Error Handling: Validates floor input and ensures the elevator doesn’t malfunction.
 
 INSTALLATION:
->clone the reprository:
+>clone the reprository:https://github.com/assistantgimini/Elevator.git
 
  USAGE:
  > Manual Mode: Run the manualElevator() method. You will be prompted to enter a starting and destination floor.
