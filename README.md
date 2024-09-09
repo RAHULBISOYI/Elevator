@@ -13,12 +13,11 @@ Sort drawn cards using multiple comparators for different sorting logic.
 
 TECHNOLOGIES:
 
-Language:
-Java
-IDE:
-Any Java-compatible IDE (e.g., IntelliJ, Eclipse)
-Version Control:
-Gite 
+Language:Java
+
+IDE:Any Java-compatible IDE (e.g., IntelliJ, Eclipse)
+
+Version Control:Gite 
 
 SETUP AND INSSTALLATION:
 
