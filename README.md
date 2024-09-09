@@ -1,76 +1,47 @@
-# Elevator
-OVERVIEW:
+ELEVATOR CHALLANGE:
 
-This Java project implements a deck of playing cards, with features such as shuffling, drawing cards, and sorting them using different Comparator strategies. The cards can be sorted by various criteria, including suit and rank.
+DESCRIPTION:
+
+The Elevator Challenge is a Java application that simulates an elevator system. It allows users to either manually control the elevator by specifying start and destination floors or automatically run a simulation with random floor requests. The elevator system handles boarding and un-boarding, moves between floors, and adjusts its direction based on requests.
 
 
 FEATURES:
 
-> Generate a standard deck of 52 playing cards.
+> Manual Mode: Input starting and destination floors to control the elevator.
+> Automatic Mode: Simulate random elevator requests to test the system's response.
+> Floor Request Management: Handles multiple requests and updates the elevator's destination accordingly.
+> Basic Error Handling: Validates floor input and ensures the elevator doesn’t malfunction.
 
-> Shuffle the deck randomly.
+INSTALLATION:
+>clone the reprository:
 
-> Draw cards from the deck.
+ USAGE:
+ > Manual Mode: Run the manualElevator() method. You will be prompted to enter a starting and destination floor.
+> Example:
+To test the manual mode:
 
-> Sort drawn cards using multiple comparators for different sorting logic.
-
-
-TECHNOLOGIES:
-
-> Language:Java
-
-> IDE:Any Java-compatible IDE (e.g., IntelliJ, Eclipse,VS code)
-
-> Version Control:Gite 
-
-
-SETUP AND INSSTALLATION:
-
-> Clone the repository:git clone https:(https://github.com/assistantgimini/Elevator.git)
-
-> Open the project in your preferred Java IDE.
-
-> Run the Main class to shuffle, draw, and sort the cards.
+public static void main(String[] args) throws InterruptedException {
+    manualElevator();
+}
 
 
-USAGE:
+CODE OVERVIEW:
 
-DECK PERATION:
-
-> Shuffle the deck: Shuffle the deck randomly using shuffle().
-
-> Draw cards: Draw a card using drawCard() and retrieve the drawn card list.
-
-> Sorting: Cards can be sorted using different Comparator strategies for custom sorting by suit and rank.
-
-
-CAMPARATOR OPTIONS:
-
-> cardComparator_1:Sorts by even/odd ordinal of the suit, then by suit and rank.
-
-> cardComparator_2:Similar to cardComparator_1 with natural ordering.
-
-> cardComparator_3:Sorts by even/odd ordinal, suit ordinal, and rank value.
-
-> cardComparator_4:Sorts by suit value and rank value (used in the example).
-
-
-CLASS STRUCTRE:
-
-> Suit:Enum representing the four suits (Hearts, Spades, Diamonds, Clubs).
-
-> Rank:Enum representing card ranks (Ace, 2-10, Jack, Queen, King).
-
-> Card:Represents an individual card with a suit and rank.
-
-> Deck:Manages the collection of Card objects, including shuffle and draw operations.
-
-> Main:Entry point that demonstrates shuffling, drawing, and sorting cards.
-
+MAIN CLASSES:
+> ElevatorChallenge: Contains the main method and methods to run the manual and automatic elevator modes.
+> Elevator: Manages the elevator's current state, handles requests, and moves between floors.
+> Direction: Enum to represent the elevator's direction (UP, DOWN, IDLE).
+KEY METHOD:
+> manualElevator(): Prompts the user for floor input and starts the elevator.
+> automaticElevator(): Simulates elevator activity with random requests.
+> callElevator(int start, int destination): Adds a request to the elevator's queue.
+> start(): Begins the elevator operation and processes each floor.
+> moveUp(), moveDown(): Moves the elevator up or down by one floor.
 
 CONTRIBUTING:
 
-Contributions are welcome! Please submit a pull request if you'd like to contribute, or open an issue for bug reports or feature suggestions.
-
-
-
+> Fork the repository.
+> Create a feature branch (git checkout -b feature/YourFeature).
+> Commit your changes (git commit -am 'Add new feature').
+> Push to the branch (git push origin feature/YourFeature).
+> Create a new Pull Request.
