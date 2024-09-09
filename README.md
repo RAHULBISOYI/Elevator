@@ -18,7 +18,7 @@ TECHNOLOGIES:
 
 Language:Java
 
-IDE:Any Java-compatible IDE (e.g., IntelliJ, Eclipse)
+IDE:Any Java-compatible IDE (e.g., IntelliJ, Eclipse,VS code)
 
 Version Control:Gite 
 
@@ -71,6 +71,5 @@ CONTRIBUTING:
 
 Contributions are welcome! Please submit a pull request if you'd like to contribute, or open an issue for bug reports or feature suggestions.
 
-License
-This project is licensed under the MIT License.
+
 
