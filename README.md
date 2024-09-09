@@ -15,7 +15,7 @@ SETUP AND INSSTALLATION:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/card-deck-sorting.git
+git clone https:(https://github.com/assistantgimini/Elevator.git)
 Open the project in your preferred Java IDE.
 Run the Main class to shuffle, draw, and sort the cards.
 Usage
