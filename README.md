@@ -11,6 +11,7 @@ Technologies
 Language: Java
 IDE: Any Java-compatible IDE (e.g., IntelliJ, Eclipse)
 Version Control: Gite 
+
 SETUP AND INSSTALLATION:
 Clone the repository:
 bash
@@ -19,10 +20,12 @@ git clone https:(https://github.com/assistantgimini/Elevator.git)
 Open the project in your preferred Java IDE.
 Run the Main class to shuffle, draw, and sort the cards.
 Usage
+
 DECK PERATION:
 Shuffle the deck: Shuffle the deck randomly using shuffle().
 Draw cards: Draw a card using drawCard() and retrieve the drawn card list.
 Sorting: Cards can be sorted using different Comparator strategies for custom sorting by suit and rank.
+
 CAMPARATOR OPTIONS:
 cardComparator_1: Sorts by even/odd ordinal of the suit, then by suit and rank.
 cardComparator_2: Similar to cardComparator_1 with natural ordering.
