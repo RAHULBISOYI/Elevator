@@ -12,22 +12,17 @@ Sort drawn cards using multiple comparators for different sorting logic.
 
 
 TECHNOLOGIES:
-
 Language:Java
-
 IDE:Any Java-compatible IDE (e.g., IntelliJ, Eclipse)
-
 Version Control:Gite 
 
 SETUP AND INSSTALLATION:
 
-Clone the repository:
-bash
-Copy code
-git clone https:(https://github.com/assistantgimini/Elevator.git)
+Clone the repository:git clone https:(https://github.com/assistantgimini/Elevator.git)
 Open the project in your preferred Java IDE.
 Run the Main class to shuffle, draw, and sort the cards.
-Usage
+
+USAGE:
 
 DECK PERATION:
 
@@ -36,14 +31,11 @@ Draw cards: Draw a card using drawCard() and retrieve the drawn card list.
 Sorting: Cards can be sorted using different Comparator strategies for custom sorting by suit and rank.
 
 CAMPARATOR OPTIONS:
-cardComparator_1:
-Sorts by even/odd ordinal of the suit, then by suit and rank.
-cardComparator_2:
-Similar to cardComparator_1 with natural ordering.
-cardComparator_3:
-Sorts by even/odd ordinal, suit ordinal, and rank value.
-cardComparator_4:
-Sorts by suit value and rank value (used in the example).
+
+cardComparator_1:Sorts by even/odd ordinal of the suit, then by suit and rank.
+cardComparator_2:Similar to cardComparator_1 with natural ordering.
+cardComparator_3:Sorts by even/odd ordinal, suit ordinal, and rank value.
+cardComparator_4:Sorts by suit value and rank value (used in the example).
 
 CLASS STRUCTRE:
 Suit:
