@@ -17,7 +17,7 @@ FEATURES:
 > 
 
 INSTALLATION:
->clone the reprository:https://github.com/assistantgimini/Elevator.git
+>clone the reprository:(https://github.com/RAHULBISOYI/Elevator.git)
 
  USAGE:
  > Manual Mode: Run the manualElevator() method. You will be prompted to enter a starting and destination floor.
