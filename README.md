@@ -23,9 +23,7 @@ INSTALLATION:
  > Manual Mode: Run the manualElevator() method. You will be prompted to enter a starting and destination floor.
 
 > Example:
-To test the manual mode:
-
-> public static void main(String[] args) throws InterruptedException {
+To test the manual mode:public static void main(String[] args) throws InterruptedException {
     manualElevator();
 }
 
